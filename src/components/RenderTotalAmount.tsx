@@ -105,7 +105,7 @@ export default function RenderTotalAmount() {
         </div>
         <label>
           <p className="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-5">
-            Last Name <sup className="text-pink-200">*</sup>
+            address <sup className="text-pink-200">*</sup>
           </p>
           <input
             required
