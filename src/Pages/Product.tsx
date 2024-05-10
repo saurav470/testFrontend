@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { IProducts } from '../Types';
 import toast from 'react-hot-toast';
 import { addToCart } from '../Slice/cartSlice';

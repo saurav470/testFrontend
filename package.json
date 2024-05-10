@@ -11,6 +11,11 @@
     "format": "npx prettier --write .",
     "prepare": "husky"
   },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "npm run format"
+    ]
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.4",
     "axios": "^1.6.8",
