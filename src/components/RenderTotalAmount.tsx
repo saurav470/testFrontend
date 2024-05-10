@@ -36,6 +36,7 @@ export default function RenderTotalAmount() {
     try {
       if (!firstName || !lastName || !address) {
         toast.error('all field mandatory required');
+        return;
       }
       const product = cart.map((product: IProducts) => product);
       const res = await axios.post(
